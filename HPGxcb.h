@@ -6,9 +6,6 @@
 
 #include <xcb/xcb.h>
 
-#define SCREEN_W 1000 
-#define SCREEN_H  590
-
 static xcb_connection_t *connection;
 static xcb_drawable_t    window;
 static xcb_gcontext_t    foreground;
